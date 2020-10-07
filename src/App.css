@@ -1,5 +1,5 @@
 .App{
   background-image: url('./assets/bannor.png');
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background-size: 100vw 100vh;
 }
