@@ -4,6 +4,8 @@ import './App.css';
 import './reset.css';
 import './responsive.css';
 import Home from './Components/Home/Home'
+import About from './Components/About/About';
+import Nav from './Components/NavBar/Nav';
 
 class App extends Component {
   constructor(){
@@ -21,8 +23,10 @@ class App extends Component {
   
     return (
       <main className="App">
+        <Nav />
         <section>
           <Home />
+          {/* <About /> */}
         </section>
       </main>
     );
